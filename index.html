@@ -1,12 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>JavaScript Sandbox Template</title>
+</head>
+<body>
+    <div class ="container">
+    <h1>Higher - Lower</h1>
+    <h3>Guess a number between 1 and a Max value.</h3>
+    <h4>Your Guess:</h4>
+    <input type ="text" id ="guessval" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"><br>
+    <button type ="button"class="btn btn-primary" onclick="guess()">Guess</button>
+    
+    </div>
+    <script src="enhancedGuess.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
 </html>
